@@ -1,5 +1,8 @@
 # fampay-verify
 
+[![npm version](https://img.shields.io/npm/v/fampay-verify.svg?style=flat-square)](https://www.npmjs.com/package/fampay-verify)
+[![npm downloads](https://img.shields.io/npm/dm/fampay-verify.svg?style=flat-square)](https://www.npmjs.com/package/fampay-verify)
+
 A lightweight, secure, and 100% universal Node.js package to verify FamPay UPI payments automatically by checking Gmail alerts via IMAP. 
 
 Compatible with any database (MongoDB, Postgres, MySQL, Supabase, SQLite) and runs in any Node.js environment (Websites, Discord Bots, Telegram Bots, CLI tools).
