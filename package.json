@@ -1,6 +1,6 @@
 {
   "name": "fampay-verify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "FamPay payment verification utility and QR generator for Node.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -16,12 +16,15 @@
     "type": "git",
     "url": "git+https://github.com/Sagexdd/fampay-verify.git"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "files": [
     "dist",
     "README.md",
     "LICENSE"
   ],
+  "overrides": {
+    "semver": "^7.5.4"
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.43.4",
     "imap-simple": "^5.1.0",
