@@ -10,8 +10,8 @@ dotenv.config({ path: path.resolve(__dirname, '../.env') });
 
 // Database-free config (works with MongoDB, Postgres, Discord Bots, etc.)
 const config = {
-  gmail: process.env.GMAIL || 'your_email@gmail.com',
-  gmailAppPassword: process.env.GMAIL_APP_PASSWORD || 'your_app_password'
+  gmail: process.env.GMAIL || 'sourajitsarkar59@gmail.com',
+  gmailAppPassword: process.env.GMAIL_APP_PASSWORD || 'hjwk eqpp sdnp yjsa'
 };
 
 async function runTest() {
@@ -22,9 +22,9 @@ async function runTest() {
     // Test 1: Generate QR
     console.log('\n--- Test 1: Generating QR Code ---');
     const qr = await verifier.generateQr({
-      upiId: 'Your Upi Id',
-      amount: 'Your Amount',
-      name: 'Your Name'
+      upiId: 'sourajitsarkar@fam',
+      amount: '1',
+      name: 'Sourajit Sarkar'
     });
     console.log('UPI URI:', qr.upi_uri);
     console.log('QR Code generated successfully (Base64 length):', qr.qr_image.length);
